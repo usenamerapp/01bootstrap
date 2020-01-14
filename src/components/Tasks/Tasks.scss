@@ -1,0 +1,14 @@
+@mixin content-bg-color {
+  background: rgb(204, 206, 86);
+}
+
+.tasks{
+  @include content-bg-color;
+ &__pagination {
+  @include content-bg-color;
+
+ }
+ &__item{
+  @include content-bg-color;
+ }
+}

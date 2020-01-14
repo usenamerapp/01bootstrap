@@ -1,0 +1,12 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+
+.modal {
+  .auth-form form{
+    transform: translate(0, 50%);
+    border: 1px solid red;
+    width: 400px;
+    margin: auto;
+  }
+}
+
